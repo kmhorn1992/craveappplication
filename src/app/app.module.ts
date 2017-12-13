@@ -3,11 +3,15 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { RestComponent } from './rest/rest.component';
+import { SinglerestComponent } from './singlerest/singlerest.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    RestComponent,
+    SinglerestComponent
   ],
   imports: [
     BrowserModule
