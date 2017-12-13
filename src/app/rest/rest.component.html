@@ -1,7 +1,8 @@
  <div class='box'> 
  <mat-card *ngFor="let restaurants of restaurants" class='restlist'>
 <h2>{{ restaurants.name }}</h2>
-<h4> {{ restaurants.rating }} </h4>
-<h5> {{ restaurants.display_address }}</h5>
+<h4> {{ restaurants.address }} </h4>
+<h5> {{ restaurants.phone }}</h5>
+<h5> {{restaurants.hours}}</h5>
 <h6> Category: {{ restaurants.type }}</h6>
 <img mat-card-image src="{{ restaurants.pic }}"> 
