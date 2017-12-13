@@ -1,2 +1,20 @@
+<mat-toolbar color="primary" class="mat-elevation-z2" id='toolBar'>
+  <span>
+     <a href='/'><img id='img' src="http://bit.ly/2iV7KmP" alt="walk2" height="36px"></a>
+      Crave
+  </span>
+  <span class="example-spacer"></span>
+   
+      <button id='navbtns' mat-icon-button routerLink='/search-page'><i class="material-icons">search</i>Search</button>
+      <!---<button id='navbtns' mat-icon-button (click)="openDialog()"><i class="material-icons">face</i>Log In</button> -->
+      <button id='navbtns' mat-icon-button routerLink='/maps-page'><i class="material-icons">place</i>Map</button>
+      <button id='navbtns' mat-icon-button routerLink='/profile-page'><i class="material-icons">face</i>Profile</button>   
+  
+  <!-- This fills the remaining space of the current row -->
+ <!-- <button mat-button [matMenuTriggerFor]="menu">Menu</button> -->
+</mat-toolbar>
+
+<router-outlet></router-outlet>
+
 <router-outlet></router-outlet>
 
