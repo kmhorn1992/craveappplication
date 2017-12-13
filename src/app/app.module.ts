@@ -10,6 +10,7 @@ import { RestComponent } from './rest/rest.component';
 import { SinglerestComponent } from './singlerest/singlerest.component';
 import { SavedComponent } from './saved/saved.component';
 import { RestService } from './rest/rest.service';
+import { SearchPageComponent } from './search-page/search-page.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { RestService } from './rest/rest.service';
     AppComponent,
     RestComponent,
     SinglerestComponent,
-    SavedComponent
+    SavedComponent,
+    SearchPageComponent
   ],
   imports: [
     BrowserModule,
