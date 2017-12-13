@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SinglerestComponent } from './singlerest.component';
+import { DialogOverviewComponent } from './dialog-overview.component';
 
-describe('SinglerestComponent', () => {
-  let component: SinglerestComponent;
-  let fixture: ComponentFixture<SinglerestComponent>;
+describe('DialogOverviewComponent', () => {
+  let component: DialogOverviewComponent;
+  let fixture: ComponentFixture<DialogOverviewComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ SinglerestComponent ]
+      declarations: [ DialogOverviewComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(SinglerestComponent);
+    fixture = TestBed.createComponent(DialogOverviewComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

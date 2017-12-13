@@ -7,19 +7,21 @@ import { AppRoutingModule} from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { RestComponent } from './rest/rest.component';
-import { SinglerestComponent } from './singlerest/singlerest.component';
+
 import { SavedComponent } from './saved/saved.component';
 import { RestService } from './rest/rest.service';
 import { SearchPageComponent } from './search-page/search-page.component';
+import { DialogOverviewComponent } from './dialog-overview/dialog-overview.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     RestComponent,
-    SinglerestComponent,
+    
     SavedComponent,
-    SearchPageComponent
+    SearchPageComponent,
+    DialogOverviewComponent
   ],
   imports: [
     BrowserModule,
