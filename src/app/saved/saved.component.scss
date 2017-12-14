@@ -1,37 +1,27 @@
-// .rest-card .dish-card {
-//     margin: 2px 30px;  
-// }
+img {
+    height:6em;
+    width: 6em;
+    border-radius: 1em;
+    margin: 1em;
+    float: left;
+}
 
-// .left-part {
-    
-//     float: left;
-//     width: 33%;
-//     // clear: both;
-// }
+mat-card-title-group {
+    margin: 1em;
+    width: 33%;
+    float: left;
+    overflow: hidden;
+}
 
-// .right-part {
-    
-//     float: left;
-//     width: 33%;
-//     // clear: both;
-// }
+mat-tab-group {
+    align-items: center;
+}
 
-// .mellow {
-//     width: 90px;
-//     height: 90px;
-//     border-radius: 1em;
-//     float: left;
-//     width: 33%;
-// }
-
-// mat-card {
-//     border: 1px solid blue;
-//     width: 100%;
-//     min-width: 800px;
-//     height: 160px;
-//     overflow: auto;
-// }
-
+/deep/ mat-tab-group {
+    .mat-tab-body-wrapper {
+        width: 80%;
+    }
+}
 
 
 
@@ -103,4 +93,4 @@
 
 
 
- 
+

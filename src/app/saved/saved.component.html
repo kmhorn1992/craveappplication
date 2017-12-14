@@ -1,48 +1,65 @@
 <mat-tab-group>
   <!-- RESTAURANTS TAB INFO -->
-  <mat-tab label="Restaurants">
-  <mat-card class="rest-card">
+  <mat-tab label="Restaurants" class="tabs">
+  <mat-card class="rest-card group">
 
       <!-- LEFT SIDE OF CARD -->
       <div class="logo">
-        <img src="https://res.citymaps.io/images/business_logos/280100">
+          <img src="https://res.citymaps.io/images/business_logos/280100">
       </div>
 
-      <div class="left-part">
+      <!-- <div class="left-part"> -->
           <mat-card-title-group>
-              <mat-card-title> Restaurant Name </mat-card-title>
-              <mat-card-subtitle> Rating meter </mat-card-subtitle>
-              <mat-card-subtitle> review count </mat-card-subtitle>
+              <mat-card-title> Mellow Mushroom <span class="rating">4.0</span></mat-card-title>
+              <mat-card-subtitle> 63 reviews </mat-card-subtitle>
               <mat-card-subtitle> price: $$$ </mat-card-subtitle>
-              <mat-card-subtitle> type </mat-card-subtitle>
+              <mat-card-subtitle> Pizza, American </mat-card-subtitle>
           </mat-card-title-group>
-      </div>
+      <!-- </div> -->
 
     <!-- RIGHT SIDE OF CARD -->
-    <div class="right-part">
-        <mat-card-content> 123 Main Street, Birmingham, AL 350216 </mat-card-content>
-        <mat-card-content> (205) 555-5555 </mat-card-content>
-        <mat-card-actions class="button-row" style="color:#390962">
-          <button mat-icon-button>
-            <mat-icon>bookmark_border</mat-icon>
-          </button>
-        </mat-card-actions>
-    </div>
+    <!-- <div class="right-part"> -->
+        <mat-card-content> 1200 20th St S <br> Birmingham, AL 35205 <br> (205) 212-9420 </mat-card-content>
+    <!-- </div> -->
   </mat-card>
+
+
+  <mat-card class="rest-card group">
+      
+            <!-- LEFT SIDE OF CARD -->
+            <div class="logo">
+                <img src="https://res.citymaps.io/images/business_logos/280100">
+            </div>
+      
+            <!-- <div class="left-part"> -->
+                <mat-card-title-group>
+                    <mat-card-title> Mellow Mushroom <span class="rating">4.0</span></mat-card-title>
+                    <mat-card-subtitle> 63 reviews </mat-card-subtitle>
+                    <mat-card-subtitle> price: $$$ </mat-card-subtitle>
+                    <mat-card-subtitle> Pizza, American </mat-card-subtitle>
+                </mat-card-title-group>
+            <!-- </div> -->
+      
+          <!-- RIGHT SIDE OF CARD -->
+          <!-- <div class="right-part"> -->
+              <mat-card-content> 1200 20th St S <br> Birmingham, AL 35205 <br> (205) 212-9420 </mat-card-content>
+          <!-- </div> -->
+        </mat-card>
   </mat-tab>
 
   <!-- DISHES TAB INFO -->
   
       <mat-tab label="Dishes">
-          <mat-card class="dish-card">
+          <mat-card>
+              <img src="https://s3-media3.fl.yelpcdn.com/bphoto/NEdChfcTrR6HIzxyH6YD8w/o.jpg">
             <div class="left-part"> 
-              <mat-card-title>dish name</mat-card-title>
-              <mat-card-subtitle>restaurant name/restaurant basic info</mat-card-subtitle>
+              <mat-card-title>Vegan Pizza</mat-card-title>
+              <mat-card-subtitle>Mellow Mushroom</mat-card-subtitle>
             </div>
       
             <div class="right-part">
-              <mat-card-subtitle>rating/date</mat-card-subtitle>
-              <mat-card-content>description of dish</mat-card-content>
+              <mat-card-subtitle>11/12/17</mat-card-subtitle>
+              <mat-card-content>10" with garlic and olive oil base, vegan cheese, portabella mushrooms, caramelized onions, spinach, basil, Buffalo flavored tofu.</mat-card-content>
             </div>
           </mat-card>
         </mat-tab>
