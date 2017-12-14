@@ -79,7 +79,16 @@ body{
       margin-left: 25em;
       margin-top: 18em;
   }
-  #allbox{
-    background: url("/assets/images/1.jpg") no-repeat center center fixed;
-   background-size: 700%;
+  .allbox{
+    background-image: url("../../assets/images/2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
   }
+
+  body{
+      background: url("")
+  }
+
+  
+ 

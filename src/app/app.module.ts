@@ -14,6 +14,7 @@ import { SearchPageComponent } from './search-page/search-page.component';
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,6 +22,7 @@ import { SearchPageComponent } from './search-page/search-page.component';
     
     SavedComponent,
     SearchPageComponent,
+    
     
   ],
   imports: [
