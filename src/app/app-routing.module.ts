@@ -6,7 +6,7 @@ import { SavedComponent } from './saved/saved.component';
 import { SearchPageComponent } from './search-page/search-page.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/rest-page', pathMatch: 'full' },
+  { path: '', redirectTo: '/search-page', pathMatch: 'full' },
   { path: 'rest-page', component: RestComponent},
   
   { path: 'saved', component: SavedComponent },

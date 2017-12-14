@@ -9,6 +9,13 @@ export class RestService {
   getRestaurants():Promise<IRestaurant[]> {
     return Promise.resolve(this.restaurants);
   }
+  
+  getAllRestaurantsByType(type: string):Promise<IRestaurant> {
+    return this.getRestaurants()
+    .then((restaurants) => {
+      return restaurants.find(restaurant => restaurant.type ===type);
+    })
+  }
 
   getRestaurant(id: number): Promise<IRestaurant> {
     return this.getRestaurants()
@@ -17,3 +24,4 @@ export class RestService {
       });
   }
 }
+
