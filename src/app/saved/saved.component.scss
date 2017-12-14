@@ -1,66 +1,52 @@
-// .rest-card .dish-card {
-//     margin: 2px 30px;  
-// }
-
-// .left-part {
-    
-//     float: left;
-//     width: 33%;
-//     // clear: both;
-// }
-
-// .right-part {
-    
-//     float: left;
-//     width: 33%;
-//     // clear: both;
-// }
-
-// .mellow {
-//     width: 90px;
-//     height: 90px;
-//     border-radius: 1em;
-//     float: left;
-//     width: 33%;
-// }
-
-// mat-card {
-//     border: 1px solid blue;
-//     width: 100%;
-//     min-width: 800px;
-//     height: 160px;
-//     overflow: auto;
-// }
-
-
-.logo {
-    // display:inline-block;
-    width: 33%;
-    max-width: 190px;
-    background-color: gray;
-   float:left;
-    
-   
+img {
+    height:6em;
+    width: 6em;
+    border-radius: 1em;
+    margin: 1em;
+    float: left;
 }
 
-.right-part {
-    // display:inline-block;
-    width: 100%;
-    max-width: 190px;
-    background-color: gray;
+mat-card-title-group {
+    margin: 1em;
+    width: 33%;
     float: left;
+    overflow: hidden;
+}
+
+mat-tab-group {
+    align-items: center;
+}
+
+/deep/ mat-tab-group {
+    .mat-tab-body-wrapper {
+        width: 80%;
+    }
+}
+
+mat-card-content {
+    margin: 1em;
+    width: 33%;
+    float: left;
+    overflow: hidden;
+}
+
+.rating {
+    font-size: 0.5em;
+    color: grey;
+}
+
+div.mat-tab-labels {
     margin-left: 3em;
-    
-    
-   
+    margin-right: 3em;
+}
+
+mat-card {
+    border-radius: 1em;
 }
 
 .left-part {
-    // display:inline-block;
+    margin: 1em;
     width: 33%;
-    max-width: 190px;
-    background-color: gray;
-    margin-left: 5em;
-    
- float: left;
+    float: left;
+    overflow: hidden;
 }
