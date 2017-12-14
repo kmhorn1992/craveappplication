@@ -22,7 +22,7 @@ const routes: Routes = [
   { path: 'mexican-page', component:MexicanPageComponent},
   {  path: 'single-page', component: SingrestComponent },
   { path: 'chinese-single', component: ChinesesingleComponent} ,
-  { path: ' italian-single', component: ItaliansingleComponent},
+  { path: 'italian-single', component: ItaliansingleComponent},
   { path: 'mex-single', component: MexsingleComponent}
 
  
