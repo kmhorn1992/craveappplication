@@ -1,6 +1,6 @@
 img {
-    height:6em;
-    width: 6em;
+    height:7em;
+    width: 7em;
     border-radius: 1em;
     margin: 1em;
     float: left;
@@ -45,7 +45,9 @@ mat-card {
     border-radius: 1em;
     margin-top: .5em;
     margin-bottom: .5em;
-    background-color: #E4E5E4;
+    background-color: #D8B08E;
+    color: #E4E5E4;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .left-part {
@@ -55,3 +57,10 @@ mat-card {
     overflow: hidden;
 }
 
+mat-card-subtitle {
+    color: #2D3531;
+}
+
+label {
+    color: white;
+}
