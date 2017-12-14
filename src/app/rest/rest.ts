@@ -71,8 +71,8 @@ export const Restaurants: Array<IRestaurant> =[
       },
       {
         id: 8 ,
-        name: "Ocean Restaurant",
-        address: "1218 20th St S, Birmingham, AL 35205",
+        name: "",
+        address: "207 20th St N, Birmingham, AL 35203",
         phone: "205.933.0999",
         hours: "5:30PM–10PM",
         type:"Italian",
