@@ -1,3 +1,58 @@
-.rest-card .dish-card {
-    margin: 2px 30px;  
+// .rest-card .dish-card {
+//     margin: 2px 30px;  
+// }
+
+// .left-part {
+    
+//     float: left;
+//     width: 33%;
+//     // clear: both;
+// }
+
+// .right-part {
+    
+//     float: left;
+//     width: 33%;
+//     // clear: both;
+// }
+
+// .mellow {
+//     width: 90px;
+//     height: 90px;
+//     border-radius: 1em;
+//     float: left;
+//     width: 33%;
+// }
+
+// mat-card {
+//     border: 1px solid blue;
+//     width: 100%;
+//     min-width: 800px;
+//     height: 160px;
+//     overflow: auto;
+// }
+
+
+img {
+    display:inline-block;
+    width: 33%;
+    max-width: 190px;
+    background-color: gray;
+    float: left;
+}
+
+.right-part {
+    display:inline-block;
+    width: 33%;
+    max-width: 190px;
+    background-color: gray;
+   
+}
+
+.left-part {
+    display:inline-block;
+    width: 33%;
+    max-width: 190px;
+    background-color: gray;
+
 }
