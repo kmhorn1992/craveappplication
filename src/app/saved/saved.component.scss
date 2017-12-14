@@ -1,51 +1,78 @@
-// .rest-card .dish-card {
-//     margin: 2px 30px;  
-// }
+img {
+    height:6em;
+    width: 6em;
+    border-radius: 1em;
+    margin: 1em;
+    float: left;
+}
 
-// .left-part {
-    
-//     float: left;
+mat-card-title-group {
+    margin: 1em;
+    width: 33%;
+    float: left;
+    overflow: hidden;
+}
+
+mat-tab-group {
+    align-items: center;
+}
+
+/deep/ mat-tab-group {
+    .mat-tab-body-wrapper {
+        width: 80%;
+    }
+}
+
+
+
+
+
+
+
+// .logo {
+//     // display:inline-block;
 //     width: 33%;
-//     // clear: both;
+//     max-width: 190px;
+//     background-color: gray;
+//    float:left;
+    
+   
 // }
 
 // .right-part {
-    
-//     float: left;
-//     width: 33%;
-//     // clear: both;
-// }
-
-// .mellow {
-//     width: 90px;
-//     height: 90px;
-//     border-radius: 1em;
-//     float: left;
-//     width: 33%;
-// }
-
-// mat-card {
-//     border: 1px solid blue;
+//     // display:inline-block;
 //     width: 100%;
-//     min-width: 800px;
-//     height: 160px;
-//     overflow: auto;
+//     max-width: 190px;
+//     background-color: gray;
+//     float: left;
+//     margin-left: 3em;
+    
+    
+   
+// }
+
+// .left-part {
+//     // display:inline-block;
+//     width: 33%;
+//     max-width: 190px;
+//     background-color: gray;
+//     margin-left: 5em;
+    
+//  float: left;
 // }
 
 
 .logo {
-    // display:inline-block;
     width: 33%;
     max-width: 190px;
     background-color: gray;
-   float:left;
+    float:left;
     
    
-}
-
-.right-part {
-    // display:inline-block;
-    width: 100%;
+ }
+ 
+ .right-part {
+    width: 33%;
     max-width: 190px;
     background-color: gray;
     float: left;
@@ -53,14 +80,17 @@
     
     
    
-}
-
-.left-part {
-    // display:inline-block;
+ }
+ 
+ .left-part {
     width: 33%;
     max-width: 190px;
     background-color: gray;
     margin-left: 5em;
-    
- float: left;
-}
+    float: left;
+ }
+
+
+
+
+
