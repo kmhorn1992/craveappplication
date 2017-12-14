@@ -5,6 +5,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { Http, HttpModule } from '@angular/http';
 import { AppRoutingModule} from './app-routing.module';
 
+
 import { AppComponent } from './app.component';
 import { RestComponent } from './rest/rest.component';
 
