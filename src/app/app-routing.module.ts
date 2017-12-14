@@ -4,6 +4,7 @@ import { RestComponent} from './rest/rest.component';
 
 import { SavedComponent } from './saved/saved.component';
 import { SearchPageComponent } from './search-page/search-page.component';
+import { MexicanPageComponent } from './mexican-page/mexican-page.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/search-page', pathMatch: 'full' },
@@ -11,6 +12,7 @@ const routes: Routes = [
   
   { path: 'saved', component: SavedComponent },
   { path: 'search-page', component: SearchPageComponent},
+  { path: 'mexican-page', component:MexicanPageComponent }
  
   
 
