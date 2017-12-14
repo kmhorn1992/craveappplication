@@ -5,6 +5,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { Http, HttpModule } from '@angular/http';
 import { AppRoutingModule} from './app-routing.module';
 
+
 import { AppComponent } from './app.component';
 import { RestComponent } from './rest/rest.component';
 
@@ -13,6 +14,8 @@ import { RestService } from './rest/rest.service';
 import { SearchPageComponent } from './search-page/search-page.component';
 import { MexicanPageComponent } from './mexican-page/mexican-page.component';
 import { SingrestComponent } from './singrest/singrest.component';
+import { ChineseComponent } from './chinese/chinese.component';
+import { ItalianComponent } from './italian/italian.component';
 
 
 
@@ -26,6 +29,8 @@ import { SingrestComponent } from './singrest/singrest.component';
     SearchPageComponent,
     MexicanPageComponent,
     SingrestComponent,
+    ChineseComponent,
+    ItalianComponent,
     
     
   ],
