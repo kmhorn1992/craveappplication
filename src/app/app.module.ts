@@ -12,6 +12,7 @@ import { SavedComponent } from './saved/saved.component';
 import { RestService } from './rest/rest.service';
 import { SearchPageComponent } from './search-page/search-page.component';
 import { MexicanPageComponent } from './mexican-page/mexican-page.component';
+import { SingrestComponent } from './singrest/singrest.component';
 
 
 
@@ -24,6 +25,7 @@ import { MexicanPageComponent } from './mexican-page/mexican-page.component';
     SavedComponent,
     SearchPageComponent,
     MexicanPageComponent,
+    SingrestComponent,
     
     
   ],
