@@ -1,71 +1,105 @@
 <mat-tab-group>
   <!-- RESTAURANTS TAB INFO -->
   <mat-tab label="Restaurants" class="tabs">
-  <mat-card class="rest-card group">
 
-      <!-- LEFT SIDE OF CARD -->
+    <!-- CARD 1 -->
+  <mat-card class="rest-card group">
       <div class="logo">
           <img src="https://res.citymaps.io/images/business_logos/280100">
       </div>
-
-      <!-- <div class="left-part"> -->
           <mat-card-title-group>
               <mat-card-title> Mellow Mushroom <span class="rating">4.0</span></mat-card-title>
               <mat-card-subtitle> 63 reviews </mat-card-subtitle>
-              <mat-card-subtitle> price: $$$ </mat-card-subtitle>
+              <mat-card-subtitle> price: $$ </mat-card-subtitle>
               <mat-card-subtitle> Pizza, American </mat-card-subtitle>
           </mat-card-title-group>
-      <!-- </div> -->
 
-    <!-- RIGHT SIDE OF CARD -->
-    <!-- <div class="right-part"> -->
-        <mat-card-content> 1200 20th St S <br> Birmingham, AL 35205 <br> (205) 212-9420 </mat-card-content>
-    <!-- </div> -->
+        <mat-card-content> 1200 20th St S <br> Birmingham, AL 35205 <br class="space"> (205) 212-9420 </mat-card-content>
   </mat-card>
 
 
+
+  <!-- CARD 2 -->
   <mat-card class="rest-card group">
-      
-            <!-- LEFT SIDE OF CARD -->
-            <div class="logo">
-                <img src="https://res.citymaps.io/images/business_logos/280100">
-            </div>
-      
-            <!-- <div class="left-part"> -->
-                <mat-card-title-group>
-                    <mat-card-title> Mellow Mushroom <span class="rating">4.0</span></mat-card-title>
-                    <mat-card-subtitle> 63 reviews </mat-card-subtitle>
-                    <mat-card-subtitle> price: $$$ </mat-card-subtitle>
-                    <mat-card-subtitle> Pizza, American </mat-card-subtitle>
-                </mat-card-title-group>
-            <!-- </div> -->
-      
-          <!-- RIGHT SIDE OF CARD -->
-          <!-- <div class="right-part"> -->
-              <mat-card-content> 1200 20th St S <br> Birmingham, AL 35205 <br> (205) 212-9420 </mat-card-content>
-          <!-- </div> -->
-        </mat-card>
-  </mat-tab>
+    <div class="logo">
+        <img src="http://elbarriobirmingham.com/img/ogimage.png">
+    </div>
+
+        <mat-card-title-group>
+            <mat-card-title> El Barrio <span class="rating">4.5</span></mat-card-title>
+            <mat-card-subtitle> 391 reviews </mat-card-subtitle>
+            <mat-card-subtitle> price: $$ </mat-card-subtitle>
+            <mat-card-subtitle> Mexican </mat-card-subtitle>
+        </mat-card-title-group>
+
+        <mat-card-content> 2211 2nd Ave N <br> Birmingham, AL 35203 <br> (205) 868-3737 </mat-card-content>
+</mat-card>
+  
+
+   <!-- CARD 3 -->
+   <mat-card class="rest-card group">
+    <div class="logo">
+        <img src="https://s3-media1.fl.yelpcdn.com/bphoto/vFqflwB0FG7WoW196wWZaw/o.jpg">
+    </div>
+
+        <mat-card-title-group>
+            <mat-card-title> Magic Wok <span class="rating">3.5</span></mat-card-title>
+            <mat-card-subtitle> 21 reviews </mat-card-subtitle>
+            <mat-card-subtitle> price: $ </mat-card-subtitle>
+            <mat-card-subtitle> Chinese </mat-card-subtitle>
+        </mat-card-title-group>
+
+        <mat-card-content> 401 19th St S <br> Birmingham, AL 35233 <br> (205) 327-5000 </mat-card-content>
+    </mat-card>
+</mat-tab>
+
+
+
 
   <!-- DISHES TAB INFO -->
   
-      <mat-tab label="Dishes">
-          <mat-card>
-              <img src="https://s3-media3.fl.yelpcdn.com/bphoto/NEdChfcTrR6HIzxyH6YD8w/o.jpg">
+    <mat-tab label="Dishes">
+        <mat-card>
+            <img src="https://s3-media3.fl.yelpcdn.com/bphoto/NEdChfcTrR6HIzxyH6YD8w/o.jpg">
+        <div class="left-part"> 
+            <mat-card-title>Vegan Pizza</mat-card-title>
+            <mat-card-subtitle>Mellow Mushroom</mat-card-subtitle>
+        </div>
+    
+        <div class="right-part">
+            <mat-card-subtitle>11/12/17</mat-card-subtitle>
+            <mat-card-content>10" with garlic and olive oil base, vegan cheese, portabella mushrooms, caramelized onions, spinach, basil, Buffalo flavored tofu.</mat-card-content>
+        </div>
+        </mat-card>
+
+    <!-- CARD 2 -->
+    <mat-card>
+            <img src="https://s3-media4.fl.yelpcdn.com/bphoto/GrIp2xXJZwk9zKift2ySHg/o.jpg">
             <div class="left-part"> 
-              <mat-card-title>Vegan Pizza</mat-card-title>
-              <mat-card-subtitle>Mellow Mushroom</mat-card-subtitle>
+            <mat-card-title>Beef Barbacoa Quesadilla</mat-card-title>
+            <mat-card-subtitle>El Barrio</mat-card-subtitle>
             </div>
-      
+    
             <div class="right-part">
-              <mat-card-subtitle>11/12/17</mat-card-subtitle>
-              <mat-card-content>10" with garlic and olive oil base, vegan cheese, portabella mushrooms, caramelized onions, spinach, basil, Buffalo flavored tofu.</mat-card-content>
+            <mat-card-subtitle>10/23/17</mat-card-subtitle>
+            <mat-card-content>It came with two halves and was stuffed with beef. All the ingredients were of great quality. It was served with a delicious queso sauce and a side salad.</mat-card-content>
             </div>
-          </mat-card>
+    </mat-card>
+
+
+
+    <!-- CARD 3 -->
+    <mat-card>
+            <img src="https://s3-media4.fl.yelpcdn.com/bphoto/dZKkV78Lgtrge3unDllP7Q/o.jpg">
+            <div class="left-part"> 
+            <mat-card-title>Cashew Chicken</mat-card-title>
+            <mat-card-subtitle>Magic Wok</mat-card-subtitle>
+            </div>
+    
+            <div class="right-part">
+            <mat-card-subtitle>12/06/17</mat-card-subtitle>
+            <mat-card-content>Cashew chicken with rice and egg roll.</mat-card-content>
+            </div>
+        </mat-card>
         </mat-tab>
   </mat-tab-group>
-  
-    
-    
-    <!-- RESTAURANT CARDS FOR LIST -->
-    
