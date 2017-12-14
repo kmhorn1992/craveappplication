@@ -1,3 +1,11 @@
-<p>
-  chinese works!
-</p>
+<div class='box'> 
+    <mat-card id="cardc" (click)="openDialog()" *ngFor="let restaurants of restaurants" class='restlist'>
+   <h2>{{ restaurants.name }}</h2>
+   <h4> {{ restaurants.address }} </h4>
+   <h5> {{ restaurants.phone }}</h5>
+   <h5> {{restaurants.hours}}</h5>
+   <h6> Category: {{ restaurants.type }}</h6>
+   <img id="img" mat-card-image src="{{ restaurants.pic }}">
+   <button></button>
+    </mat-card>
+   

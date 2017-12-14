@@ -1,4 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output } from "@angular/core";
+import { IRestaurant, Restaurants } from '../rest/rest';
+import { RestService } from '../rest/rest.service';
+import { ActivatedRoute, ParamMap} from '@angular/router';
 
 @Component({
   selector: 'app-italian',
@@ -6,10 +9,22 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./italian.component.scss']
 })
 export class ItalianComponent implements OnInit {
+  restaurants: Array<any>
+  restaurant: IRestaurant[]
+  
+ 
+   constructor(
+       private svc: RestService,
+   ) { }
+   getRestaurants(): void {
+     this.svc.getRestaurants()
+     .then((restaurants)  => {
+       this.restaurants = restaurants.filter(r => r.type === 'italian');
+   })
+   }
+   ngOnInit() {
+     this.getRestaurants();
+   }
+ }
 
-  constructor() { }
 
-  ngOnInit() {
-  }
-
-}

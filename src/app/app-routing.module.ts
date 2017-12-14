@@ -5,11 +5,14 @@ import { SingrestComponent} from './singrest/singrest.component';
 import { SavedComponent } from './saved/saved.component';
 import { SearchPageComponent } from './search-page/search-page.component';
 import { MexicanPageComponent } from './mexican-page/mexican-page.component';
+import { ChineseComponent } from './chinese/chinese.component';
+import { ItalianComponent } from './italian/italian.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/search-page', pathMatch: 'full' },
   { path: 'rest-page', component: RestComponent},
-  
+  { path: 'chinese-page', component: ChineseComponent},
+  { path: 'italian-page', component: ItalianComponent},
   { path: 'saved', component: SavedComponent },
   { path: 'search-page', component: SearchPageComponent},
   { path: 'mexican-page', component:MexicanPageComponent},
