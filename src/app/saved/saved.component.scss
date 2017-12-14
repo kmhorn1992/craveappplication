@@ -23,74 +23,32 @@ mat-tab-group {
     }
 }
 
-
-
-
-
-
-
-// .logo {
-//     // display:inline-block;
-//     width: 33%;
-//     max-width: 190px;
-//     background-color: gray;
-//    float:left;
-    
-   
-// }
-
-// .right-part {
-//     // display:inline-block;
-//     width: 100%;
-//     max-width: 190px;
-//     background-color: gray;
-//     float: left;
-//     margin-left: 3em;
-    
-    
-   
-// }
-
-// .left-part {
-//     // display:inline-block;
-//     width: 33%;
-//     max-width: 190px;
-//     background-color: gray;
-//     margin-left: 5em;
-    
-//  float: left;
-// }
-
-
-.logo {
+mat-card-content {
+    margin: 1em;
     width: 33%;
-    max-width: 190px;
-    background-color: gray;
-    float:left;
-    
-   
- }
- 
- .right-part {
-    width: 33%;
-    max-width: 190px;
-    background-color: gray;
     float: left;
+    overflow: hidden;
+}
+
+.rating {
+    font-size: 0.5em;
+    color: grey;
+}
+
+div.mat-tab-labels {
     margin-left: 3em;
-    
-    
-   
- }
- 
- .left-part {
+    margin-right: 3em;
+}
+
+mat-card {
+    border-radius: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.left-part {
+    margin: 1em;
     width: 33%;
-    max-width: 190px;
-    background-color: gray;
-    margin-left: 5em;
     float: left;
- }
-
-
-
-
-
+    overflow: hidden;
+}
