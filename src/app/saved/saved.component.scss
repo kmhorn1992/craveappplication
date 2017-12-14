@@ -33,26 +33,30 @@
 // }
 
 
-img {
-    display:inline-block;
+.logo {
+    // display:inline-block;
     width: 33%;
     max-width: 190px;
     background-color: gray;
-    float: left;
+    position: relative;
+    clear: both;
 }
 
 .right-part {
-    display:inline-block;
+    // display:inline-block;
     width: 33%;
     max-width: 190px;
     background-color: gray;
+    position: relative;
+    clear: both;
    
 }
 
 .left-part {
-    display:inline-block;
+    // display:inline-block;
     width: 33%;
     max-width: 190px;
     background-color: gray;
-
+    position: relative;
+    clear: both;
 }
