@@ -16,6 +16,9 @@ import { MexicanPageComponent } from './mexican-page/mexican-page.component';
 import { SingrestComponent } from './singrest/singrest.component';
 import { ChineseComponent } from './chinese/chinese.component';
 import { ItalianComponent } from './italian/italian.component';
+import { MexsingleComponent } from './mexsingle/mexsingle.component';
+import { ChinesesingleComponent } from './chinesesingle/chinesesingle.component';
+import { ItaliansingleComponent } from './italiansingle/italiansingle.component';
 
 
 
@@ -31,6 +34,9 @@ import { ItalianComponent } from './italian/italian.component';
     SingrestComponent,
     ChineseComponent,
     ItalianComponent,
+    MexsingleComponent,
+    ChinesesingleComponent,
+    ItaliansingleComponent,
     
     
   ],
