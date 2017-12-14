@@ -155,14 +155,14 @@ export const Restaurants: Array<IRestaurant> =[
 export const chickenDishes = [
   {
     id: 1,
-    restaurantId: 16,
-    name: 'Chicken Lomein',
+    restaurantId:14,
+    name: 'Cashew Chicken',
     ingredients: ['chicken', 'pasta', 'snap peas', 'water chestnuts', 'soy sauce']
   },
   {
     id: 2,
-    restaurantId: 2,
-    name: 'Chicken Quesadilla',
+    restaurantId: 11,
+    name: 'Chicken Lasagna',
     ingredients: ['chicken', 'tortilla', 'cheese']
   },
   {

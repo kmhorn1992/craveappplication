@@ -14,7 +14,7 @@ export class SingrestComponent implements OnInit {
   ) { }
 
   ngOnInit() {
-    this.rest$ = this.svc.getRestaurant(16)
+    this.rest$ = this.svc.getRestaurant(14)
       .then((rest) => {
         return rest;
       }); 
