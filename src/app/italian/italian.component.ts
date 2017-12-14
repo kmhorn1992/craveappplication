@@ -19,7 +19,7 @@ export class ItalianComponent implements OnInit {
    getRestaurants(): void {
      this.svc.getRestaurants()
      .then((restaurants)  => {
-       this.restaurants = restaurants.filter(r => r.type === 'italian');
+       this.restaurants = restaurants.filter(r => r.type === 'Italian');
    })
    }
    ngOnInit() {

@@ -19,6 +19,7 @@ import { ItalianComponent } from './italian/italian.component';
 import { MexsingleComponent } from './mexsingle/mexsingle.component';
 import { ChinesesingleComponent } from './chinesesingle/chinesesingle.component';
 import { ItaliansingleComponent } from './italiansingle/italiansingle.component';
+import { SearchtermComponent } from './searchterm/searchterm.component';
 
 
 
@@ -37,6 +38,7 @@ import { ItaliansingleComponent } from './italiansingle/italiansingle.component'
     MexsingleComponent,
     ChinesesingleComponent,
     ItaliansingleComponent,
+    SearchtermComponent,
     
     
   ],

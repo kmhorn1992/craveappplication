@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { IRestaurant, Restaurants} from './rest';
+import { IRestaurant, Restaurants, chickenDishes } from './rest';
 
 
 @Injectable()
@@ -22,6 +22,10 @@ export class RestService {
       .then((restaurants) => {
         return restaurants.find(restaurant => restaurant.id ===id);
       });
+  }
+
+  getChickenDishes() {
+    return Promise.resolve(chickenDishes);
   }
 }
 

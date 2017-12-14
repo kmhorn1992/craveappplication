@@ -11,6 +11,7 @@ import { ChinesesingleComponent } from './chinesesingle/chinesesingle.component'
 import { ItaliansingleComponent } from './italiansingle/italiansingle.component';
 import { Component } from '@angular/core/src/metadata/directives';
 import { MexsingleComponent } from './mexsingle/mexsingle.component';
+import { SearchtermComponent } from './searchterm/searchterm.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/search-page', pathMatch: 'full' },
@@ -23,7 +24,9 @@ const routes: Routes = [
   {  path: 'single-page', component: SingrestComponent },
   { path: 'chinese-single', component: ChinesesingleComponent} ,
   { path: 'italian-single', component: ItaliansingleComponent},
-  { path: 'mex-single', component: MexsingleComponent}
+  { path: 'mex-single', component: MexsingleComponent},
+  { path: 'searchterm', component: SearchtermComponent },
+  { path: 'restaurant', component: SingrestComponent}
 
  
   

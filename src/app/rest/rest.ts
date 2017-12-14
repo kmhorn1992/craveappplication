@@ -150,4 +150,25 @@ export const Restaurants: Array<IRestaurant> =[
         type:"Chinese",
         pic: "http://bit.ly/2kt4TSA",
       },
-    ]
+    ];
+
+export const chickenDishes = [
+  {
+    id: 1,
+    restaurantId: 16,
+    name: 'Chicken Lomein',
+    ingredients: ['chicken', 'pasta', 'snap peas', 'water chestnuts', 'soy sauce']
+  },
+  {
+    id: 2,
+    restaurantId: 2,
+    name: 'Chicken Quesadilla',
+    ingredients: ['chicken', 'tortilla', 'cheese']
+  },
+  {
+    id: 3,
+    restaurantId: 1,
+    name: 'Chicken Tacos',
+    ingredients: ['chicken']
+  }
+];  

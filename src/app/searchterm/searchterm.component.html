@@ -1,0 +1,7 @@
+<ng-container *ngIf="dishes$ | async; let dishes">
+  <mat-card *ngFor="let dish of dishes" [routerLink]="['/restaurant']">
+      <mat-card-title>
+        {{ dish.name }}
+      </mat-card-title>
+    </mat-card>  
+</ng-container>

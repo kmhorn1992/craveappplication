@@ -1,14 +1,5 @@
-
-<div class="form-container">
-  <mat-form-field>
-    <input matInput placeholder="Dish Name">
-  </mat-form-field>
-
-  <mat-form-field>
-    <input matInput placeholder="Review">
-  </mat-form-field>
-
-  <mat-form-field>
-    <input matInput placeholder="Date Had">
-  </mat-form-field>
-</div>
+<ng-container *ngIf="rest$ | async; let rest">
+  <mat-card>
+    <mat-card-title>{{ rest.name }}</mat-card-title>
+  </mat-card>
+</ng-container>
