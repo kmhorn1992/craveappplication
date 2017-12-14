@@ -57,7 +57,7 @@ export const Restaurants: Array<IRestaurant> =[
         phone: "205.322.3330",
         hours: "10AM–9PM ",
         type:"Seafood",
-        pic: "http://bit.ly/2nZ9ot0"
+        pic: "http://bit.ly/2C6esOh"
       },
       {
         id: 7,
