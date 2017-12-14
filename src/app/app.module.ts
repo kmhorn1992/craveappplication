@@ -13,6 +13,8 @@ import { RestService } from './rest/rest.service';
 import { SearchPageComponent } from './search-page/search-page.component';
 import { MexicanPageComponent } from './mexican-page/mexican-page.component';
 import { SingrestComponent } from './singrest/singrest.component';
+import { ChineseComponent } from './chinese/chinese.component';
+import { ItalianComponent } from './italian/italian.component';
 
 
 
@@ -26,6 +28,8 @@ import { SingrestComponent } from './singrest/singrest.component';
     SearchPageComponent,
     MexicanPageComponent,
     SingrestComponent,
+    ChineseComponent,
+    ItalianComponent,
     
     
   ],
