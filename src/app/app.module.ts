@@ -11,7 +11,7 @@ import { RestComponent } from './rest/rest.component';
 import { SavedComponent } from './saved/saved.component';
 import { RestService } from './rest/rest.service';
 import { SearchPageComponent } from './search-page/search-page.component';
-import { DialogOverviewComponent } from './dialog-overview/dialog-overview.component';
+
 
 
 @NgModule({
@@ -21,7 +21,7 @@ import { DialogOverviewComponent } from './dialog-overview/dialog-overview.compo
     
     SavedComponent,
     SearchPageComponent,
-    DialogOverviewComponent
+    
   ],
   imports: [
     BrowserModule,

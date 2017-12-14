@@ -16,7 +16,7 @@ export class RestComponent implements OnInit {
   
       constructor( 
           private svc: RestService,
-          private dialog: MatDialogModule
+         
         )
           {}  
           
