@@ -9,8 +9,8 @@ body{
 .search {
   width: 100%;
   position: absolute;
-  margin-Bottom: 20em;
-  margin-top: 20em;
+ 
+  
   margin-left: 2em;
 }
 
@@ -62,23 +62,11 @@ body{
 .ml9{
     font-family: 'Six Caps';
     font-size: 150px;
-   margin-bottom: 8em;
+
     color: white;
     margin-left: 2em;
 }
 
-
-
-  .imgbox{
-    background: url("/assets/images/photofunky.gif");
-    position: relative;
-  }
-
-  .gif{
-      position:absolute;
-      margin-left: 25em;
-      margin-top: 18em;
-  }
   .allbox{
     background-image: url("../../assets/images/2.jpg");
     background-size: cover;
